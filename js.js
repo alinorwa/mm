@@ -27,19 +27,19 @@ window.onscroll = () => {
             text.style.display = 'none'
         } else {
             text.style.display = 'block'
+            text.style.opacity = '1'
         }
         // light morning
         if (scrollY >= 156) {
             document.querySelector('.main').style.background = 'linear-gradient(#2f76e1 , #4b99e9 )'
         } else {
-            document.querySelector('.main').style.background = 'linear-gradient(#200016 , #4b99e9)'
+            document.querySelector('.main').style.background = 'linear-gradient(#200016 , #10001f)'
         }
         if (scrollY >= 800) {
-            document.querySelector('.nav').style.background = '#382a34'
-
-            // } else {
-
-            // }
-
+            document.querySelector('.nav').style.background = '#200016'
+        } else {
+            document.querySelector('nav').style.background = 'transparent'
         }
+
     }
+}
