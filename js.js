@@ -34,6 +34,12 @@ window.onscroll = () => {
         } else {
             document.querySelector('.main').style.background = 'linear-gradient(#200016 , #4b99e9)'
         }
+        if (scrollY >= 800) {
+            document.querySelector('.nav').style.background = '#382a34'
 
+            // } else {
+
+            // }
+
+        }
     }
-}
